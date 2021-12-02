@@ -54,7 +54,7 @@ try:
 
             if num==randNum:
                 print("You Won!")
-                print(f"\nRound: {currentRounds}")
+                print(f"\nRound: {currentRounds}\n")
                 rounds = 5
                 currentRounds+=1
                 wonIn+=1
@@ -62,7 +62,7 @@ try:
                 print(f"You Lose! The number was {randNum}")
                 rounds = 5
                 currentRounds+=1
-                print(f"\nRound: {currentRounds}")
+                print(f"\nRound: {currentRounds}\n")
                 
         rounds-=1
 except KeyboardInterrupt:
